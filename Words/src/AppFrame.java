@@ -70,7 +70,7 @@ public class AppFrame extends JFrame {
 		mntmAbout = new JMenuItem("About");
 		mntmAbout.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				JOptionPane.showMessageDialog(contentPane, "All rights belongs to Gordan Gigovic.\n Email: gigovic.gordan@gmail.com");
+				JOptionPane.showMessageDialog(contentPane, "All rights belong to Gordan Gigovic.\n Email: gigovic.gordan@gmail.com");
 
 			}
 		});
